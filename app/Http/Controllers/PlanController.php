@@ -45,6 +45,36 @@ class PlanController extends Controller
                 
             }
 
+            if(request()->get('elemento1_2')){
+
+                $planvariante = new PlanVariante();
+                $planvariante->plan_id = $plan->id;
+                $planvariante->variante_id = 2;       
+                $planvariante->cantidad = 1;
+
+                try {
+                    $planvariante->save();
+                } catch (\Exception $e) {
+                    return redirect()->back()->withErrors('No se pudo insertar el planVariante');
+                }
+                
+            }
+
+            if(request()->get('elemento1_3')){
+
+                $planvariante = new PlanVariante();
+                $planvariante->plan_id = $plan->id;
+                $planvariante->variante_id = 3;       
+                $planvariante->cantidad = 1;
+
+                try {
+                    $planvariante->save();
+                } catch (\Exception $e) {
+                    return redirect()->back()->withErrors('No se pudo insertar el planVariante');
+                }
+                
+            }            
+           
             if(request()->get('elemento2_6') > 0 ){
                 
                 $planvariante = new PlanVariante();
@@ -71,6 +101,36 @@ class PlanController extends Controller
                     $planvariante->save();
                 } catch (\Exception $e) {
                     return redirect()->back()->withErrors('No se pudo insertar la planVariante');
+                }
+                
+            }
+
+            if(request()->get('elemento3_8')){
+
+                $planvariante = new PlanVariante();
+                $planvariante->plan_id = $plan->id;
+                $planvariante->variante_id = 8;       
+                $planvariante->cantidad = 1;
+
+                try {
+                    $planvariante->save();
+                } catch (\Exception $e) {
+                    return redirect()->back()->withErrors('No se pudo insertar el planVariante');
+                }
+                
+            }
+
+            if(request()->get('elemento4_11')){
+
+                $planvariante = new PlanVariante();
+                $planvariante->plan_id = $plan->id;
+                $planvariante->variante_id = 11;       
+                $planvariante->cantidad = 1;
+
+                try {
+                    $planvariante->save();
+                } catch (\Exception $e) {
+                    return redirect()->back()->withErrors('No se pudo insertar el planVariante');
                 }
                 
             }
@@ -164,6 +224,149 @@ class PlanController extends Controller
                 }
                 
             }
+
+            if(request()->get('elemento6_18')){
+
+                $planvariante = new PlanVariante();
+                $planvariante->plan_id = $plan->id;
+                $planvariante->variante_id = 18;       
+                $planvariante->cantidad = 1;
+
+                try {
+                    $planvariante->save();
+                } catch (\Exception $e) {
+                    return redirect()->back()->withErrors('No se pudo insertar el planVariante');
+                }
+                
+            }
+
+            if(request()->get('elemento7_19')){
+
+                $planvariante = new PlanVariante();
+                $planvariante->plan_id = $plan->id;
+                $planvariante->variante_id = 19;       
+                $planvariante->cantidad = 1;
+
+                try {
+                    $planvariante->save();
+                } catch (\Exception $e) {
+                    return redirect()->back()->withErrors('No se pudo insertar el planVariante');
+                }
+                
+            }
+
+            if(request()->get('elemento7_20'))
+            {
+
+                $planvariante = new PlanVariante();
+                $planvariante->plan_id = $plan->id;
+                $planvariante->variante_id = 20;       
+                $planvariante->cantidad = 1;
+
+                try {
+                    $planvariante->save();
+                } catch (\Exception $e) {
+                    return redirect()->back()->withErrors('No se pudo insertar el planVariante');
+                }
+                
+            }
+
+            if(request()->get('elemento7_21'))
+            {
+
+                $planvariante = new PlanVariante();
+                $planvariante->plan_id = $plan->id;
+                $planvariante->variante_id = 21;       
+                $planvariante->cantidad = 1;
+
+                try {
+                    $planvariante->save();
+                } catch (\Exception $e) {
+                    return redirect()->back()->withErrors('No se pudo insertar el planVariante');
+                }
+                
+            }
+
+            if(request()->get('elemento7_22'))
+            {
+
+                $planvariante = new PlanVariante();
+                $planvariante->plan_id = $plan->id;
+                $planvariante->variante_id = 22;       
+                $planvariante->cantidad = 1;
+
+                try {
+                    $planvariante->save();
+                } catch (\Exception $e) {
+                    return redirect()->back()->withErrors('No se pudo insertar el planVariante');
+                }
+                
+            }
+
+            if(request()->get('elemento8_24'))
+            {
+
+                $planvariante = new PlanVariante();
+                $planvariante->plan_id = $plan->id;
+                $planvariante->variante_id = 24;       
+                $planvariante->cantidad = 1;
+
+                try {
+                    $planvariante->save();
+                } catch (\Exception $e) {
+                    return redirect()->back()->withErrors('No se pudo insertar el planVariante');
+                }
+                
+            }
+
+            if(request()->get('elemento8_25'))
+            {
+
+                $planvariante = new PlanVariante();
+                $planvariante->plan_id = $plan->id;
+                $planvariante->variante_id = 25;       
+                $planvariante->cantidad = 1;
+
+                try {
+                    $planvariante->save();
+                } catch (\Exception $e) {
+                    return redirect()->back()->withErrors('No se pudo insertar el planVariante');
+                }
+                
+            }
+
+            if(request()->get('elemento8_26'))
+            {
+
+                $planvariante = new PlanVariante();
+                $planvariante->plan_id = $plan->id;
+                $planvariante->variante_id = 26;       
+                $planvariante->cantidad = 1;
+
+                try {
+                    $planvariante->save();
+                } catch (\Exception $e) {
+                    return redirect()->back()->withErrors('No se pudo insertar el planVariante');
+                }
+                
+            }
+
+            if(request()->get('elemento8_27'))
+            {
+
+                $planvariante = new PlanVariante();
+                $planvariante->plan_id = $plan->id;
+                $planvariante->variante_id = 27;       
+                $planvariante->cantidad = 1;
+
+                try {
+                    $planvariante->save();
+                } catch (\Exception $e) {
+                    return redirect()->back()->withErrors('No se pudo insertar el planVariante');
+                }
+                
+            }
+
 
             if(request()->get('elemento9_29') > 0 ){
                 
@@ -358,6 +561,21 @@ class PlanController extends Controller
                 
             }
 
+            if(request()->get('elemento1_5'))
+            {
+                $planvariante = new PlanVariante();
+                $planvariante->plan_id = $plan->id;
+                $planvariante->variante_id = 5;       
+                $planvariante->cantidad = 1;
+
+                try {
+                    $planvariante->save();
+                } catch (\Exception $e) {
+                    return redirect()->back()->withErrors('No se pudo insertar el planVariante');
+                }
+                
+            }
+
             if(request()->get('elemento2_6') > 0 ){
                 
                 $planvariante = new PlanVariante();
@@ -387,6 +605,52 @@ class PlanController extends Controller
                 }
                 
             }
+
+            if(request()->get('elemento3_9'))
+            {
+                $planvariante = new PlanVariante();
+                $planvariante->plan_id = $plan->id;
+                $planvariante->variante_id = 9;       
+                $planvariante->cantidad = 1;
+
+                try {
+                    $planvariante->save();
+                } catch (\Exception $e) {
+                    return redirect()->back()->withErrors('No se pudo insertar el planVariante');
+                }
+                
+            }
+
+            if(request()->get('elemento3_10'))
+            {
+                $planvariante = new PlanVariante();
+                $planvariante->plan_id = $plan->id;
+                $planvariante->variante_id = 10;       
+                $planvariante->cantidad = 1;
+
+                try {
+                    $planvariante->save();
+                } catch (\Exception $e) {
+                    return redirect()->back()->withErrors('No se pudo insertar el planVariante');
+                }
+                
+            }
+
+            if(request()->get('elemento4_11'))
+            {
+                $planvariante = new PlanVariante();
+                $planvariante->plan_id = $plan->id;
+                $planvariante->variante_id = 11;       
+                $planvariante->cantidad = 1;
+
+                try {
+                    $planvariante->save();
+                } catch (\Exception $e) {
+                    return redirect()->back()->withErrors('No se pudo insertar el planVariante');
+                }
+                
+            }
+
 
             if(request()->get('elemento5_12') > 0 ){
                 
@@ -478,6 +742,51 @@ class PlanController extends Controller
                 
             }
 
+            if(request()->get('elemento6_18'))
+            {
+                $planvariante = new PlanVariante();
+                $planvariante->plan_id = $plan->id;
+                $planvariante->variante_id = 18;       
+                $planvariante->cantidad = 1;
+
+                try {
+                    $planvariante->save();
+                } catch (\Exception $e) {
+                    return redirect()->back()->withErrors('No se pudo insertar el planVariante');
+                }
+                
+            }
+
+            if(request()->get('elemento7_23'))
+            {
+                $planvariante = new PlanVariante();
+                $planvariante->plan_id = $plan->id;
+                $planvariante->variante_id = 23;       
+                $planvariante->cantidad = 1;
+
+                try {
+                    $planvariante->save();
+                } catch (\Exception $e) {
+                    return redirect()->back()->withErrors('No se pudo insertar el planVariante');
+                }
+                
+            }
+
+            if(request()->get('elemento8_28'))
+            {
+                $planvariante = new PlanVariante();
+                $planvariante->plan_id = $plan->id;
+                $planvariante->variante_id = 28;       
+                $planvariante->cantidad = 1;
+
+                try {
+                    $planvariante->save();
+                } catch (\Exception $e) {
+                    return redirect()->back()->withErrors('No se pudo insertar el planVariante');
+                }
+                
+            }
+
 
             Mascota::find($id_mascota)->update(['estado_plan' => 2]);
 
@@ -507,7 +816,7 @@ class PlanController extends Controller
         ->join('variante as v', 'plv.variante_id', '=', 'v.id')
         ->join('servicio as s', 'v.servicio_id', '=', 's.id')
         ->join('plan as pl', 'plv.plan_id', '=', 'pl.id')
-        ->select('s.nombre as nom1', 'v.nombre as nom2','plv.cantidad')
+        ->select('s.nombre as nom1', 'v.nombre as nom2','plv.cantidad', 'v.precio')
         ->where('pl.id', '=', $id)
         ->get();
 

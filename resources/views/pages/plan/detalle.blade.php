@@ -11,19 +11,20 @@
                 <p class="page-title text-center mb-3">Productos y Servicios Anexos</p>
                 
                 @if($detalles->count() > 0)
-
-                        <table class="table table-borderless table-responsive-sm text-center ">
+                    <div style="position: relative; height: 400px; overflow: auto;">
+                        <table class="table table-borderless table-responsive-sm text-center" >
                             <thead>
                                 <tr>
                                     <th class="table-title">Variante</th>                            
                                     <th class="table-title">Cantidad</th>
-
+                                    <th class="table-title">Precio Unitario</th>
                                 </tr>
                             <tbody class="text-center">
                                     @foreach ($detalles as $detalle)
                                         <tr>
-                                            <td class="table-text" style="width: 50%">{{ $detalle->nom1}} {{ $detalle->nom2}}</td>
-                                            <td class="table-text" style="width: 50%">{{ $detalle->cantidad }}</td>                                                                                           
+                                            <td class="table-text" style="width: 35%">{{ $detalle->nom1}} {{ $detalle->nom2}}</td>
+                                            <td class="table-text" style="width: 35%">{{ $detalle->cantidad }}</td>  
+                                            <td class="table-text" style="width: 30%">{{ $detalle->precio }}</td> 
                                         </tr>                                    
                                     @endforeach
 
@@ -34,10 +35,12 @@
                                 </tr>
                             </tfoot>    
                         </table> 
+                    </div>
 
                         <div class="col-lg-12 col-md-12 col-12" id="centrar">                                                            
                             <a class="btn  btn-rounded purple-gradient btn my-0" href="{{ url('/user-profile/plan') }}">Volver</a>
                         </div>   
+                    
                 @else
                     <blockquote class="blockquote bq-warning">
                         <p class="bq-title">No posee variantes o servicios Contratados <i class="far fa-sad-cry"></i></p>

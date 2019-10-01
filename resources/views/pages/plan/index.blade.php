@@ -11,7 +11,7 @@
                 <p class="page-title text-center mb-3">Planes Contratados</p>
                 
                 @if($planes->count() > 0)
-
+                    <div style="position: relative; height: 400px; overflow: auto;">
                         <table class="table table-borderless table-responsive-sm text-center ">
                             <thead>
                                 <tr>
@@ -46,6 +46,7 @@
                                 </tr>
                             </tfoot>    
                         </table>    
+                    </div>
                 @else
                     <blockquote class="blockquote bq-warning">
                         <p class="bq-title">No posee planes Contratados <i class="far fa-sad-cry"></i></p>

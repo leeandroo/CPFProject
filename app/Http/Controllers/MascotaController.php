@@ -63,12 +63,12 @@ class MascotaController extends Controller
     }
 
     public function index(){
-        $mascotas = Mascota::all() ; 
+        // $mascotas = Mascota::where('user_id',) ; 
 
-        $especies = Especie::all() ;
-        $razas = Raza::all() ;  
+        $especies = Especie::all();
+        $razas = Raza::all();  
 
-        return view('pages.mascota.index', compact('mascotas', 'especies', 'razas'));
+        return view('pages.mascota.index', compact('especies', 'razas'));
     }
 
     public function getRazas($id){

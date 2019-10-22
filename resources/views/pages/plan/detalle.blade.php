@@ -11,11 +11,11 @@
                 <p class="page-title text-center mb-3">Productos y Servicios Anexos</p>
                 
                 @if($detalles->count() > 0)
-                    <div style="position: relative; height: 400px; overflow: auto;">
+                    <div style="position: relative; height: 400px; overflow: auto;" id="centrar">
                         <table class="table table-borderless table-responsive-sm text-center" >
                             <thead>
                                 <tr>
-                                    <th class="table-title">Variante</th>                            
+                                    <th class="table-title">Producto / Servicio</th>                            
                                     <th class="table-title">Cantidad</th>
                                     <th class="table-title">Precio Unitario</th>
                                 </tr>
@@ -28,12 +28,7 @@
                                         </tr>                                    
                                     @endforeach
 
-                            </tbody>
-                            <tfoot>
-                                <tr>
-                                    <td colspan="5"></td>
-                                </tr>
-                            </tfoot>    
+                            </tbody>   
                         </table> 
                     </div>
 

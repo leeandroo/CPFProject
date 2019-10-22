@@ -24,7 +24,7 @@
                                     <!-- input apellido -->
                                 <div class="col-lg-6 col-md-6 col-12 my-2">
                                     <!-- <label for="apellido" class="mt-1 box-label">Apellido</label> -->
-                                    <input name="chip" class="form-control " type="number" placeholder="N° chip" maxlength="15" value="{{ old('chip') }}" oninput="this.value = this.value.replace(/[^0-9.]/g, ''); this.value = this.value.replace(/(\.*)\./g, '$1');">
+                                    <input name="chip" class="form-control " type="number" placeholder="N° chip" value="{{ old('chip') }}" oninput="this.value = this.value.replace(/[^0-9.]/g, ''); this.value = this.value.replace(/(\.*)\./g, '$1');" maxlength="15">
                                     <!-- <input type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');" > -->
                                 </div>      
                                     <!-- input movil 1 -->

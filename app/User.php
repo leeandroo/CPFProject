@@ -34,6 +34,11 @@ class User extends Authenticatable
         return $this->hasMany(Plan::class);
     }
 
+    public function mascotas()
+    {
+        return $this->hasMany(Mascota::class);
+    }
+
     /**
      * The attributes that should be hidden for arrays.
      *

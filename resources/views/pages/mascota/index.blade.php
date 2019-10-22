@@ -14,8 +14,8 @@
             <div class="container-fluid">
                 <p class="page-title text-center mb-3">Lista de mascotas</p>
                 
-                @if($mascotas->count() > 0)
-                        @foreach($mascotas as $mascota)
+                @if(Auth::user()->mascotas->count() > 0)
+                        @foreach(Auth::user()->mascotas as $mascota)
                             <div class="card my-4">
                                 <div class="card-body p-0">
                                     <div class="row ml-0 mr-0 my-2">

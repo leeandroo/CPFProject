@@ -40,7 +40,7 @@
 			<div id="slide-out" class="side-nav fixed z-depth-0 border border-1 overflow">
 				<div class="side-header mt-4">
 					<div id="centrar">
-						<img src="/img/juntos.png" width="135" height="90">
+						<img src="/img/juntos.PNG" width="135" height="90">
 					</div>
 
 					<div class="user-profile text-center black-text">

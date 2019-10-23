@@ -50,7 +50,7 @@ class MascotaController extends Controller
             $foto->move(public_path().'/fotos/mascotas/',$foto->getClientOriginalName());
             $mascota->foto=$foto->getClientOriginalName();            
         }else{
-            $mascota->foto = 'Sin Foto.png';
+            $mascota->foto = 'Sin Foto.PNG';
         }
 
         try {

@@ -32,9 +32,9 @@
                         </table> 
                     </div>
 
-                        <div class="col-lg-12 col-md-12 col-12" id="centrar">                                                            
-                            <a class="btn  btn-rounded purple-gradient btn my-0" href="{{ url('/user-profile/plan') }}">Volver</a>
-                        </div>   
+                        <div class="col-lg-12 col-md-12 col-12" id="centrar">
+                            <a class="btn  btn-rounded purple-gradient btn my-0"  href="{{ url('/user-profile/plan',['user' => $user->id])}}">Volver</a>
+                        </div>
                     
                 @else
                     <blockquote class="blockquote bq-warning">

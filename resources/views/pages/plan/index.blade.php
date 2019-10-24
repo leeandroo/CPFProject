@@ -9,7 +9,6 @@
         <div class="card-body">
             <div class="container-fluid">
                 <p class="page-title text-center mb-3">Planes Contratados</p>
-                
                 @if($planes->count() > 0)
                     <div style="position: relative; height: 400px; overflow: auto;">
                         <table class="table table-borderless table-responsive-sm text-center ">

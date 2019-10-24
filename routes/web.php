@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,7 +17,6 @@ Route::get('/user-profile', 'InterfazController@get_user_profile'); // redirecci
 Route::get('/plan/{especie}/{mascota}/{user}','InterfazController@get_plan_user');//redirecciona a la vista del plan editable con dos atributos el ID tanto de la mascota como del usuario 
 Route::get('/cotizarPlan', 'InterfazController@get_planCotizar');
 Route::post('planCot', 'InterfazController@planCotizar')->name('planCot');//redireccinoa al controlador para determinar el plan 
-
 //RUTAS AUTH (Autentificación)
 Route::post('register', 'Auth\RegisterController@register')->name('register');
 Route::post('login', 'Auth\LoginController@login')->name('login');
@@ -32,18 +30,12 @@ Route::post('/plan/contratarg','PlanController@registerPlanCat');//redirecciona 
 //RUTAS Planes
 Route::get('/user-profile/plan/{user}', 'PlanController@index'); // redirecciona al controlador los planes para obtener informacion y depues ir a la vista de los planes contratados
 Route::get('/detalle_plan/{petid}','PlanController@detalle');//redirecciona a la vista del plan detalle con un atributo el ID de la mascota del plan
-
 //redirecciona al controlador de la mascota para obtener las razas    
 Route::Get('razas/{id}', 'MascotaController@getRazas');
-
 // RUTAS PROFILE (Vista de perfil de cliente con vistas a sus mascotas y planes)
 //Route::get('/user-profile','InterfazController@get_user_profile');//compact('detalle_usuario')
-
 Route::get('/varianteexitosa', 'VarianteController@exitoso')->name('variante.resultado');
-
-
 Route::view('/user-profile/planes','pages.profile.cliente.plan');
 Route::view('/cotizar', 'pages.stepers');
 Route::view('/sugerido', 'pages.plan-sugerido');
 Route::view('/plan-editar', 'pages.plan-edit');
-

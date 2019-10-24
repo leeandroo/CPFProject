@@ -40,7 +40,7 @@
 			<div id="slide-out" class="side-nav fixed z-depth-0 border border-1 overflow">
 				<div class="side-header mt-4">
 					<div id="centrar">
-						<img src="/img/juntos.PNG" width="135" height="90">
+						<img src="/img/juntos.png" width="135" height="90">
 					</div>
 
 					<div class="user-profile text-center black-text">
@@ -63,6 +63,7 @@
 							<i class="far fa-calendar-alt ml-2 mr-4 fa-fw icono"></i>Mis mascotas
 							<div class="list-mark"></div>
 						</a>
+					
 						<a href="{{url('/user-profile/plan', ['user' => Auth::user()->id ])}}" class="list-item mt-1 @yield('plan')">
 							<i class="far fa-file-alt ml-2 mr-4 fa-fw icono"></i>Mis planes 
 							<div class="list-mark"></div>
@@ -191,9 +192,7 @@
 			firstDay: 1,
 				maxDate: 0
 		});
-
 	
-
     </script>
 </body>
 </html>

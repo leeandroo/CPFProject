@@ -9,6 +9,7 @@
 	<meta name="msapplication-navbutton-color" content="#000000"/>
 	<meta name="apple-mobile-web-app-capable" content="yes"/>
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
 	
     <title>@yield('titulo')</title>

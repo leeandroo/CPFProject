@@ -59,7 +59,7 @@ class MascotaController extends Controller
             return redirect()->back()->withErrors('No se pudo insertar la mascota');
         }
     
-        return redirect('/user-profile/mascota')->with('message', array('title' => '¡Genial!', 'body'=>'Tu mascotas a sido agregada con exito')); 
+        return redirect('/user-profile/mascota')->with('message', array('title' => '¡Genial!', 'body'=>'Tu mascota a sido agregada con éxito')); 
     }
 
     public function index(){

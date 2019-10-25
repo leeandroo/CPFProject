@@ -14,7 +14,7 @@
                     @endif         
                 </h2>
 				<!-- Section description -->
-				<p class="text-center w-responsive mx-auto mb-3">Te invitamos a crear un plan salud preventivo para 
+				<p class="text-center w-responsive mx-auto mb-3">Te invitamos a crear un plan de salud preventivo para 
                 @if ( $estado == 'contratar' ) 
                         {{ $mascota->nombre }},
                     @else
@@ -37,9 +37,9 @@
 							<ul class="list-group custom-popover">														
 							<li class="list-group-item text-center"><h5 class="mplus estiloSB">Servicios Básicos</h5></li>
 							<li class="list-group-item text-center"><h5 class="mplus estiloVC">Vacunas</h5></li>
-							<li class="list-group-item text-center"><h5 class="mplus estiloEX">Examenes</h5></li>
-							<li class="list-group-item text-center"><h5 class="mplus estiloSC">Servicios Clinicos</h5></li>
-							<li class="list-group-item text-center"><h5 class="mplus estiloES">Estetica</h5></li>
+							<li class="list-group-item text-center"><h5 class="mplus estiloEX">Exámenes</h5></li>
+							<li class="list-group-item text-center"><h5 class="mplus estiloSC">Servicios Clínicos</h5></li>
+							<li class="list-group-item text-center"><h5 class="mplus estiloES">Estética</h5></li>
 							</ul>
 						</div>		
 								

@@ -130,7 +130,7 @@
 						</a>
 						<form action="{{ route('logout') }}" method="post">
 							{{ csrf_field() }}
-							<button type="submit" class="btn btn-sm btn-rounded btn-outline-primary waves-effect m-0">Cerrar sesión</button>
+							<i class="sign-out-alt"></i><button type="submit">Cerrar sesión</button>
 						</form>
 					</div>
 				</li>

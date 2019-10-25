@@ -60,7 +60,7 @@
 
 					@if(Auth::user()->type == 'Cliente')
 						<a href="{{ url('/user-profile/mascota') }}" class="list-item mt-1 @yield('mascotas')">
-							<i class="far fa-calendar-alt ml-2 mr-4 fa-fw icono"></i>Mis mascotas
+							<i class="far fa-paw-alt ml-2 mr-4 fa-fw icono"></i>Mis mascotas
 							<div class="list-mark"></div>
 						</a>
 					
@@ -128,7 +128,10 @@
 						<a class="dropdown-item grey-text" href="#">
 							<i class="fas fa-bell"></i> Notificaciones
 						</a>
-
+						<form action="{{ route('logout') }}" method="post">
+							{{ csrf_field() }}
+							<button type="submit" class="btn btn-sm btn-rounded btn-outline-primary waves-effect m-0">Cerrar sesión</button>
+						</form>
 					</div>
 				</li>
 			</ul>

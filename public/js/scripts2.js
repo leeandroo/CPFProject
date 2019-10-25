@@ -1,6 +1,7 @@
 $('#message').modal('show')
 	  
-$("#datepicker").datepicker({
+$(function(){
+  $("#datepicker").datepicker({
 
   closeText: 'Cerrar',
   prevText: '< Ant',
@@ -15,5 +16,5 @@ $("#datepicker").datepicker({
   dateFormat: 'dd/mm/yy',
   firstDay: 1,
   maxDate: 0
-  
+  });
 });

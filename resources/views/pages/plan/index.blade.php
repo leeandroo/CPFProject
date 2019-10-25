@@ -14,9 +14,9 @@
                         <table class="table table-borderless table-responsive-sm text-center ">
                             <thead>
                                 <tr>
-                                    <th class="table-title">Codigo</th>
+                                    <th class="table-title">Código</th>
                                     <th class="table-title">Mascota</th>
-                                    <th class="table-title">feccha y hora</th>
+                                    <th class="table-title">Fecha y Hora</th>
                                     <th class="table-title">Total</th>                                    
                                     <th class="table-title">Opciones</th>
                                 </tr>

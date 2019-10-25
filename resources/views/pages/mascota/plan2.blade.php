@@ -27,9 +27,9 @@
 						<button type="button" class="btn btn-outline-secondary btn-rounded waves-effect btn my-0 popoverInfo" data-toggle="popoverIconos" data-placement="bottom" data-content="<ul class='list-group custom-popover'>														
 								<li class='list-group-item '><h5 class='mplus estiloSB'><i class='fas fa-notes-medical'></i> Servicios Básicos</h5></li>
 								<li class='list-group-item '><h5 class='mplus estiloVC'><i class='fas fa-syringe'></i> Vacunas</h5></li>
-								<li class='list-group-item '><h5 class='mplus estiloEX'><i class='fas fa-file-medical-alt'></i> Examenes</h5></li>
-								<li class='list-group-item '><h5 class='mplus estiloSC'><i class='fas fa-user-md'></i> Servicios Clinicos</h5></li>
-								<li class='list-group-item '><h5 class='mplus estiloES'><i class='fas fa-bath'></i> Estetica</h5></li>
+								<li class='list-group-item '><h5 class='mplus estiloEX'><i class='fas fa-file-medical-alt'></i> Exámenes</h5></li>
+								<li class='list-group-item '><h5 class='mplus estiloSC'><i class='fas fa-user-md'></i> Servicios Clínicos</h5></li>
+								<li class='list-group-item '><h5 class='mplus estiloES'><i class='fas fa-bath'></i> Estética</h5></li>
 								</ul>">Categorias</button>
 						
 						

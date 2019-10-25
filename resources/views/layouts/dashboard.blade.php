@@ -128,10 +128,6 @@
 						<a class="dropdown-item grey-text" href="#">
 							<i class="fas fa-bell"></i> Notificaciones
 						</a>
-						<form action="{{ route('logout') }}" method="post">
-							{{ csrf_field() }}
-							<i class="sign-out-alt"></i><button type="submit">Cerrar sesión</button>
-						</form>
 					</div>
 				</li>
 			</ul>

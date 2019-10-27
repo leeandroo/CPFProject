@@ -79,10 +79,15 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-12 col-lg-12 col-md-12" id="centrar">
-                                                    <a class="btn btn-info btn-sm  btn-rounded " href="#">
-                                                        <i class="fas fa-edit"></i> Editar Información 
+                                                    <a class="btn btn-info btn-sm  btn-rounded " href="http://cirilo-app.herokuapp.com">
+                                                        <i class="fas fa-edit"></i>Asistente de mascota
                                                     </a>
                                                 </div>
+                                                {{-- <div class="col-12 col-lg-12 col-md-12" id="centrar">
+                                                    <a class="btn btn-info btn-sm  btn-rounded " href="#">
+                                                        <i class="fas fa-edit"></i> Editar Información
+                                                    </a>
+                                                </div> --}}
                                             </div>     
 
                                             @else

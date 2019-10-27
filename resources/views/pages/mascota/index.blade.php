@@ -80,7 +80,7 @@
                                                 </div>
                                                 <div class="col-12 col-lg-12 col-md-12" id="centrar">
                                                     <a class="btn btn-info btn-sm  btn-rounded " href="http://cirilo-app.herokuapp.com">
-                                                        <i class="fas fa-paper-plane"></i>Asistente de mascota online
+                                                        <i class="fas fa-paper-plane"></i> Asistente de mascota online
                                                     </a>
                                                 </div>
                                                 {{-- <div class="col-12 col-lg-12 col-md-12" id="centrar">

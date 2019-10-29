@@ -187,7 +187,7 @@
                                                         </div>
                                                     @else
                                                         <div class="col-lg-6 col-md-12 col-12" id="centrar">                                                            
-                                                            <a class="btn  btn-rounded purple-gradient btn my-0" href="{{ url('/login') }}">Contratar <i class="fa fa-plus ml-2"></i></a>
+                                                            <a class="btn  btn-rounded purple-gradient btn my-0" href="{{ url('/register') }}">Contratar <i class="fa fa-plus ml-2"></i></a>
                                                         </div>
                                                     @endif  
                                                                                                   	

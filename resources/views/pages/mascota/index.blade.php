@@ -92,7 +92,7 @@
                                             @else
                                             <div>                                                
                                                 <div class="col-12 col-lg-12 col-md-12" id="centrar">
-                                                    <a class="btn btn-info btn-sm  btn-rounded " href="http://cirilo-app.herokuapp.com"> Asistente de mascota online
+                                                    <a class="btn btn-info btn-sm  btn-rounded " href="http://cirilo-app.herokuapp.com"> Carnet sanitario Online
                                                     </a>
                                                 </div>
                                             </div>  
